@@ -1,0 +1,36 @@
+/* .card{
+    width:55%;
+    border-radius: 110px;
+    position: relative;
+    cursor: pointer;
+} */
+/* .card:hover img{
+    filter: brightness(0.5);
+} */
+.imagebox{
+    border-image: fill 0 linear-gradient(rgba(11, 134, 77, 0.067) , #e4fbe6);
+    flex: 1 0 120px;
+    cursor: pointer;
+    transition: 2s;
+}
+img{
+    filter: grayscale(100%);
+    transition: 0.9s;
+    border-radius: 15px;
+    border: 1px solid white;
+}
+img:hover{
+    filter:grayscale(0%);
+    height: 170%;
+    transition: 0.5s;
+    border-radius: 30%;
+    box-shadow: 7px 7px 7px rgb(42, 42, 42);
+    border: 1px solid white;
+}
+img::after{
+    transition: 0.9s;
+}
+/* .imagebox:hover{
+    border-image: fill 1 linear-gradient(rgba(28, 220, 60, 0.067) , #ffffff);
+    transition: 2s;
+} */
